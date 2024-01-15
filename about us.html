@@ -17,32 +17,32 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css" />
    </head>
-        <body onload="loadPage('About us')">
-          <div class="nav-bar">
-              <ul>
-                  <li onclick="goToPage('Home')">Home</li>
-                  <li class="active"onclick="goToPage('About us')">About us</li>
-                  <li id="account" onclick="goToPage('flashcard-hmtl')">flashcard</li>
-              </ul>
-          </div>
-          <div class="body-content">
-              <div id="page-cover">
-                <img src="image\backgroundimage.jpg" alt="cover image">
+        <body>
+          <nav class="logo" >
+              <div class="nav-bar">
+                  <h1>FLASH CARDS</h1>
               </div>
-              <div id="page-top">
-          </div>
-
-          <section>
-            
-            <div>
-             <h3>about us-hmtl</h3>
+                  <ul>
+                          <li class="active" onclick="goToPage('Home')">Home</li>
+                          <li class="active"onclick="goToPage('About us')">About us</li>
+                          <li id="account" class="active" onclick="goToPage('flashcard-hmtl')">flashcard</li>
+                   </ul>
+          </nav>
+        <!-- about us-->
+         <section>
+          <div>
+             <h3></h3>
              <p></p>
            </div>
          </section>
-
-
-          <footer></footer>
-          
+<!-- footer -->
+      <footer class="footer">
+         <p class="social links">
+            <a href="https://www.facebook.com/" target="_blank" aria-label="facebook link"><i class="fab fa-facebook-square mr-3"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="instagram link"><i class="fab fa-instagram-square mr-3"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" aria-label="twitter link"><i class="fab fa-twitter mr-3"></i></a>
+          </p>
+       </footer> 
          <!-- Script -->
          <script src="script.js"></script>
       
