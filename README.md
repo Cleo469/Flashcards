@@ -3,7 +3,7 @@ Link to deployed project [here]()
 
 ![Hero Image]()
 
-Flash card app is a user-friendly application designed for its users to access the appropriate for select.
+Flash card app is a user-friendly application designed for its users to access any time for information, learning and education purposes.
 
 ## Table Of Contents
 
@@ -23,7 +23,7 @@ Flash card app is a user-friendly application designed for its users to access t
 - [Testing](#testing)
 - [Technologies and Tools](#technologies-and-tools)
 - [Deployment](#deployment)
-  - [Deploy to Netlify](#deploy-to-netlify)
+  - [Deploy to ](#deploy-to-)
   - [Version control](#version-control)
   - [Creating A Fork](#creating-a-fork)
   - [Cloning Repository](#cloning-repository)
@@ -36,16 +36,14 @@ Flash card app is a user-friendly application designed for its users to access t
 
 #### Site-goals
 
-- Provide a system to allow a user to get a countdown to New Year based on their geo-location.
-- Allow users to access interesting facts about New Year traditions in pre-selected countries.
-- Expandable application, according to Hackathon conditions and constraints, where content is displayed based on user selection.
+- Provide a system to allow a user to access flashcards for learning, reviews and educative purposes.
+- Allow users to access interesting facts and tips about flashcard on the home page and do a live practical on flashcards page.
+- Expandable application, opportunity to save, view and go back to code, and content is displayed based on user selection.
 
 #### Agile planning
 
 The project was developed by using agile methodologies. The development cycle was divided into short sprints, where code was delivered in small chunks for flexibility and good coding practice.
 Furthermore, the branch system and forking was used to simulate real-life environment.
-
-The Kanban board was created to keep track of project progression and issues assessment. Issues were given acceptance criteria and were split into tasks if feasible.
 
 #### Epics
 
@@ -54,9 +52,6 @@ The Kanban board was created to keep track of project progression and issues ass
 
 1. **UI/UX**
    The UI/UX epic is for all stories related to prototyping and designing a user-friendly interface.
-
-1. **Countdown timer**
-   The Countdown timer epic for all stories needed for the countdown logic to work in different time zones.
 
 1. **Standalone pages**
    This epic is for all stories related to small pages and functionalities that don't have their epic.
@@ -82,7 +77,7 @@ The Kanban board was created to keep track of project progression and issues ass
 
 **EPIC 3: Countdown timer**
 
-- As a user, I want to see a visual countdown timer, so that I can easily understand how much time is left until New Year in my selected location.
+- As a user, I want to see a  well structure and style tittle, so that I can easily understand what the website is all about.
 
 **EPIC 4: World Map**
 
@@ -90,18 +85,13 @@ The Kanban board was created to keep track of project progression and issues ass
 
 **EPIC 5: Countries pages**
 
-- As a user, I want to access brief information about each country I select, such as cultural New Year traditions or interesting facts, to learn more about how New Year's is celebrated there.
-- As a user, I would like to access the Spain page for a countdown meter and basic information about New Year traditions.
-- As a user, I would like to access the Ireland page for a countdown meter and basic information about New Year traditions.
-- As a user, I would like to access the India page for a countdown meter and basic information about New Year traditions.
-- As a user, I would like to access the Japan page for a countdown meter and basic information about New Year traditions.
-- As a user, I would like to access the Greece page for a countdown meter and basic information about New Year traditions.
-- As a user, I would like to access the Poland page for a countdown meter and basic information about New Year traditions.
+- As a user, I want to access brief information about what flashcards is, interesting facts, to learn more about flashcards and use this function in the app.
+
 
 **EPIC 6: Standalone pages**
 
 - As a developer, I should create a team page introducing authors to application visitors.
-- As a user, I want to see a friendly and informative "404" error page when I encounter a broken link or reach a non-existent page on the website.
+- As a user, I want to see a friendly and informative about us page on the website.
 
 **EPIC 7: Deployment**
 
@@ -114,10 +104,10 @@ The Kanban board was created to keep track of project progression and issues ass
 
 ## The Scope Plane
 
-- Responsive design - website should support devices from 320px up
-- Hamburger menu for mobile devices
-- Interactive World Map with countdown to New Year for each location
-- Trivia section for countries selected by team members
+- Responsive design - website should support devices from 320px and above.
+- Menu for mobile, desktop and windows devices.
+- Interactive and informative about us and images of team members.
+- Flashcards section for interaction by users.
 
 ## The Structure Plane
 
@@ -130,7 +120,7 @@ Implementation:
 **Navigation menu**
 
 - Navigation menu was implemented across all pages
-- Hamburger menu is present to provide better support for mobile devices
+- The Navbar menu is present to provide better support for mobile devices
 
 `As a developer, I should add a footer so a user has quick access to points of interest`
 
@@ -141,35 +131,6 @@ Implementation:
 - bottom navigation menu
 - quick access to application content
 
-`As a user, I want to see a visual countdown timer, so that I can easily understand how much time is left until New Year in my selected location.`
-
-Implementation:
-
-**Localized countdown timer**
-
-- Countdown timer that corresponds to the user's selection
-- Adherence to time zones
-
-`As a user, I want to view a world map on the homepage, so that I can easily navigate to different countries and/or cities for their countdowns.`
-
-Implementation:
-
-**World map**
-
-- Interactive World Map that allows user to select every country
-- User geolocation functionality
-
-`As a user, I want to access brief information about each country I select, such as cultural New Year traditions or interesting facts, to learn more about how New Year's is celebrated there.`
-
-Implementation:
-
-**Countries pages**
-
-- countdown timer for each country
-- information about New Year traditions and noteworthy locations
-- animated images
-
-`As a developer, I should create a team page introducing authors to application visitors.`
 
 Implementation:
 
@@ -183,7 +144,7 @@ Implementation:
 
 ### Planned features
 
-- About page for business-oriented purposes
+- Flashcards page for educative-learning purposes
 
 ## The Skeleton Plane
 
@@ -194,22 +155,23 @@ Implementation:
 <details>
 <summary>All wireframes</summary>
 
-- ![Landing page](./readme/images/landing-page.png)
-- ![Country page](./readme/images/country.png)
-- ![Team page](./readme/images/team-page)
+- ![Index page]()
+- ![Flashcard page]()
+- ![About us page]()
 
 </details>
 
 ## The Surface Plane
 
 Dark blue (#031023), light blue (#153c75), white(#f1f1f1) and light-brown (#f7e7ce) were chosen as primary colours for application.
-The main font of the application is Roboto font.
+The main font of the application is ."Poppins", sans-serif;
 
-![](./readme/images/colors.PNG)
+
+![]()
 
 ## Testing
 
-Testing documentation can be found [here.](./TESTING.md)
+Testing documentation can be found [here.]()
 
 ## Technologies and tools
 
@@ -219,24 +181,6 @@ Testing documentation can be found [here.](./TESTING.md)
   - Content styling
 - JavaScript
   - Application logic
-- Bootstrap
-  - Structure, styling and interactive elements
-- NPM
-  - Package manager
-- Parcel
-  - Application build/development optimization tool
-- Gsap
-  - Animations
-- Luxon
-  - Dates handling
-- Google Geocoding API
-  - Geo-location functionality
-- Mapbox
-  - World map rendering
-- Rest Countries
-  - basic information about countries
-- Secret Santa API
-  - Processing geographical coordinates
 - Balsamiq
   - Wireframes
 - Github
@@ -258,9 +202,9 @@ Testing documentation can be found [here.](./TESTING.md)
 
 ### Deploy to 
 
-1. Navigate to [Netlify webiste]()
-2. Connect to Github account via Netlify
-3. Authorize Netlify and select the repository
+1. Navigate to []()
+2. Connect to Github account
+3. Authorize and select the repository
 4. Configure settings
 5. Build application
 
@@ -286,7 +230,7 @@ The following commands were used:
 
 ### Creating a fork
 
-1. Navigate to the [repository]()
+1. Navigate to the [repository](https://github.com/Cleo469/Flashcards)
 2. In the top-right corner of the page click on the fork button and select create a fork.
 3. You can change the name of the fork and add description
 4. Choose to copy only the main branch or all branches to the new fork.
@@ -294,7 +238,7 @@ The following commands were used:
 
 ### Cloning Repository
 
-1. Navigate to the [repository]()
+1. Navigate to the [repository](https://github.com/Cleo469/Flashcards)
 2. Click on the Code button on top of the repository and copy the link.
 3. Open Git Bash and change the working directory to the location where you want the cloned directory.
 4. Type git clone and then paste the link.
@@ -305,18 +249,17 @@ The following commands were used:
 
 
 - [Oluwaseun Olawunmi Adeoye](https://github.com/57Esther)
-- [Oluwaseun Olawunmi Adeoye](https://github.com/57Esther)
+- [Cleopatra Tetsola]( https://github.com/Cleo469)
 
 
 ### Media
 
-Flash card application was created for educational purposes only. Their rightful owners own all content, like images, text or any other, used by authors to create this application.
+Flash card application was created for educational purposes only. Their rightful owners own all content, like images, text or any others used by authors to create this application.
 
--
-- 
+
 ### Honourable mentions
 
-- Code First girls - "BT" event organizer
--  - team facilitator
--  - team facilitator
-- You - for visiting our repository and reading the documentation
+- Code First girls - "BT" event organizer.
+- Zack Atama - team facilitator.
+- Micheal - team facilitator.
+- You - for visiting our repository and reading the documentation.
