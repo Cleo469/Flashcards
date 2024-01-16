@@ -7,7 +7,7 @@
  }
   
   body {
-    background-color: #536b9c;
+    background-color: #031023;
     background-image: url();
   }
   
@@ -15,7 +15,7 @@
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background: #536b9c;
+   background: #031023;
    font-family: "Poppins", sans-serif;
 
   }
@@ -26,14 +26,12 @@
     letter-spacing: 5px;
     font-size: 22px;
 
-
-
   }
 
   .nav-bar ul {
     padding: 15px 0px;
     text-align: center;
-    background: rgb(red, green, blue);
+    background: #031023;
     justify-content: space-around;
 
 }
