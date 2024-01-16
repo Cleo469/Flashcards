@@ -1,9 +1,9 @@
+
  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-
  }
   
   body {
@@ -84,20 +84,6 @@ margin: 5px;
   padding-right: 10px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container {
   width: 90vw;
