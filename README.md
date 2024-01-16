@@ -75,15 +75,15 @@ Furthermore, the branch system and forking was used to simulate real-life enviro
 - As a user, I can navigate between different sections of the website so that I can easily access the information or features I need.
 - As a developer, I should add a footer so a user has quick access to points of interest
 
-**EPIC 3: Countdown timer**
+**EPIC 3: Structure**
 
 - As a user, I want to see a  well structure and style tittle, so that I can easily understand what the website is all about.
 
-**EPIC 4: World Map**
+**EPIC 4: **
 
 - As a user, I want to view a world map on the homepage, so that I can easily navigate to different countries and/or cities for their countdowns.
 
-**EPIC 5: Countries pages**
+**EPIC 5: Information pages**
 
 - As a user, I want to access brief information about what flashcards is, interesting facts, to learn more about flashcards and use this function in the app.
 
