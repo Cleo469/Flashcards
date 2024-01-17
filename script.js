@@ -1,6 +1,8 @@
+
+
 const container = document.querySelector(".container");
 const addQuestionCard = document.getElementById("add-question-card");
-// const cardButton = document.getElementById("save-btn");
+const cardButton = document.getElementById("save-btn");
 const question = document.getElementById("question");
 const answer = document.getElementById("answer");
 const errorMessage = document.getElementById("error");
@@ -28,20 +30,20 @@ let tempAnswer;
   }
 });
 
-//  cardButton.addEventListener("click", () => {
-//   editBool = false;
-//   tempQuestion = question.value.trim();
-//   tempAnswer = answer.value.trim();
-//   if (!tempQuestion || !tempAnswer) {
-//     errorMessage.classList.remove("hide");
-//   } else {
-//     container.classList.remove("hide");
-//     errorMessage.classList.add("hide");
-//     viewlist();
-//     question.value = "";
-//     answer.value = "";
-//   }
-// });
+   cardButton.addEventListener("click", () => {
+  editBool = false;
+  tempQuestion = question.value.trim();
+  tempAnswer = answer.value.trim();
+  if (!tempQuestion || !tempAnswer) {
+    errorMessage.classList.remove("hide");
+ } else {
+    container.classList.remove("hide");
+   errorMessage.classList.add("hide");
+   viewlist();
+    question.value = "";
+   answer.value = "";
+  }
+ });
 saveFlashcardsBtn.addEventListener("click", () => {
   saveFlashcards();
 });
@@ -148,7 +150,7 @@ function displayFlashcards() {
     listCard.appendChild(div);
   });
 }
-
+  
 
 const pageTop = document.getElementById('page-top');
 const headerNavs = document.querySelector('.nav-bar ul li');

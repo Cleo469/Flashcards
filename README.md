@@ -1,5 +1,5 @@
 # Flashcards
-Link to deployed project [here]()
+Link to deployed project [here](https://cleo469.github.io/Flashcards/)
 
 ![Hero Image]()
 
@@ -75,15 +75,15 @@ Furthermore, the branch system and forking was used to simulate real-life enviro
 - As a user, I can navigate between different sections of the website so that I can easily access the information or features I need.
 - As a developer, I should add a footer so a user has quick access to points of interest
 
-**EPIC 3: Countdown timer**
+**EPIC 3: Structure**
 
 - As a user, I want to see a  well structure and style tittle, so that I can easily understand what the website is all about.
 
-**EPIC 4: World Map**
+**EPIC 4: **
 
 - As a user, I want to view a world map on the homepage, so that I can easily navigate to different countries and/or cities for their countdowns.
 
-**EPIC 5: Countries pages**
+**EPIC 5: Information pages**
 
 - As a user, I want to access brief information about what flashcards is, interesting facts, to learn more about flashcards and use this function in the app.
 
@@ -145,6 +145,8 @@ Implementation:
 ### Planned features
 
 - Flashcards page for educative-learning purposes
+- Local storage for easy review.
+- Delete option.
 
 ## The Skeleton Plane
 
@@ -202,11 +204,11 @@ Testing documentation can be found [here.]()
 
 ### Deploy to 
 
-1. Navigate to []()
-2. Connect to Github account
-3. Authorize and select the repository
-4. Configure settings
-5. Build application
+1. Navigate to [Github link](https://cleo469.github.io/Flashcards/)
+2. Connect to Github account.
+3. Authorize and select the repository.
+4. Configure settings.
+5. Build application.
 
 ### Version control
 
@@ -245,21 +247,19 @@ The following commands were used:
 5. Press Enter to create your local clone.
 
 ## Credits
+  - [Cleopatra Tetsola]( https://github.com/Cleo469) 
+  - [Oluwaseun Olawunmi Adeoye](https://github.com/57Esther)
 
 
 
-- [Oluwaseun Olawunmi Adeoye](https://github.com/57Esther)
-- [Cleopatra Tetsola]( https://github.com/Cleo469)
+ ### Media
 
-
-### Media
-
-Flash card application was created for educational purposes only. Their rightful owners own all content, like images, text or any others used by authors to create this application.
+ Flash card application was created for educational purposes only. Their rightful owners own all content, like images, text or any others used by authors to create this application.
 
 
 ### Honourable mentions
 
-- Code First girls - "BT" event organizer.
-- Zack Atama - team facilitator.
-- Micheal - team facilitator.
-- You - for visiting our repository and reading the documentation.
+ - Code First girls - "BT" event organizer.
+ - Zack Atama - team facilitator.
+ - Micheal - team facilitator.
+ - You - for visiting our repository and reading the documentation.

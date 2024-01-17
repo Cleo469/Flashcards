@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -15,14 +14,14 @@
       rel="stylesheet"
     />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/style.css"/>
    </head>
          <body>
           <nav class="logo" >
               <div class="nav-bar">
                   <h1>FLASH CARDS</h1>
               </div>
-                  <ul>
+                  <ul class="nav-links" >
                           <li onclick="goToPage('Home')">Home</li>
                           <li onclick="goToPage('About us')">About us</li>
                           <li id="account" class="active" onclick="goToPage('flashcard-hmtl')">flashcard</li>
@@ -34,13 +33,12 @@
               <div class="add-flashcard-con">
                 <button id="add-flashcard">Add Flashcard</button>
               </div>
-        
+              
               <!-- Display Card of Question And Answers Here -->
               <div id="card-con">
                 <div class="card-list-container"></div>
               </div>
             </div>
-        
             <!-- Input form for users to fill question and answer -->
             <div class="question-container hide" id="add-question-card">
               <h2>Add Flashcard</h2>
@@ -49,10 +47,11 @@
                 <div class="error-con">
                   <span class="hide" id="error">Input fields cannot be empty!</span>
                 </div>
+
                 <!-- Close Button -->
                 <i class="fa-solid fa-xmark" id="close-btn"></i>
               </div>
-        
+
               <label for="question">Question:</label>
               <textarea
                 class="input"
@@ -67,23 +66,35 @@
                 rows="4"
                 placeholder="Type the answer here..."
               ></textarea>
-              <button id="save-btn" onclick="saveFlashcards()" >Save</button>
-
+              <button id="save-btn">Save</button>
             </div>
+            <!-- Save Flashcards Button -->
+            <button id="save-flashcards">Save Flashcards</button>
             <!-- View Flashcards Button -->
-    <button id="view-flashcards" onclick="displayFlashcards()">View Flashcards</button>
-          </section>
-        <!-- footer -->   
-          <footer class="footer">
-            <p class="social links">
-               <a href="https://www.facebook.com/" target="_blank" aria-label="facebook link"><i class="fab fa-facebook-square mr-3"></i></a>
-               <a href="https://www.instagram.com/" target="_blank" aria-label="instagram link"><i class="fab fa-instagram-square mr-3"></i></a>
-               <a href="https://www.twitter.com/" target="_blank" aria-label="twitter link"><i class="fab fa-twitter mr-3"></i></a>
-            </p>
-      </footer>
+            <button id="view-flashcards">View Flashcards</button>
+            <!-- Go Back Button -->
+            <button id="go-back" class="hide">Go Back</button> 
         
+        <!-- footer -->
+         <footer class="footercontainer">
+             <div class="socialIcons">
+                 <a href="https://www.facebook.com/" target="_blank" aria-label="facebook link"><i class="fab fa-facebook-square mr-3"></i></a>
+                 <a href="https://www.instagram.com/" target="_blank" aria-label="instagram link"><i class="fab fa-instagram-square mr-3"></i></a>
+                 <a href="https://www.twitter.com/" target="_blank" aria-label="twitter link"><i class="fab fa-twitter mr-3"></i></a>
+              </div>
+
+               <div class="footerBottom">
+                   <p>Copyright &copy;2024 Designed by <span>Olu & Cleo</span></p>
+               </div>
+          </footer>
+
          <!-- Script -->
          <script src="script.js"></script>
       
         </body>   
 </html>
+
+
+
+       
+
