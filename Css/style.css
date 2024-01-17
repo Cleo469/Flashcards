@@ -32,7 +32,7 @@
   display: flex;
   color: rgba(266, 266 266);
   justify-content: space-around;
-  width: 30%;
+  width: 38%;
 
 
   }
@@ -55,12 +55,7 @@
 
 }
 
-.burger div {
-width: 20px;
-height: 3px;
-background-color: rgba(266, 266 266);
-margin: 5px;
-}
+
 
 .active {
     color: white;
@@ -70,36 +65,57 @@ margin: 5px;
 
 
 
-.footer {
-  color: #d6ffff;
-  background-color: #333;
-  text-align: center;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
+footer {
+  background-color: #5d5d83;
+  
 }
 
-.social-links > a {
-  color: #ffffff;
-  font-size: 35px;
-  padding-right: 10px;
+.footercontainer{
+  width: 100%;
+  height: 20%;
+  padding: 30px 30px 20px;
 
 }
 
+.socialIcons  {
+  display: flex;
+  justify-content: center;
+
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i{
+font: 2em;
+color: #587EF4;
+opacity: 0.9;
+}
+
+.socialIcons a :hover {
+background-color: #587EF4;
+transition: 0.5s;
+
+}
+
+.socialIcons a i :hover {
+  color: #587EF4;
+  transition: 0.5s;
 
 
 
 
+  
+}
 
 
 
-
-
-
-
-
-
-
-.container {
+ .container {
   width: 90vw;
   max-width: 62.5em;
   position: relative;
