@@ -33,7 +33,7 @@
   display: flex;
   color: rgba(266, 266 266);
   justify-content: space-around;
-  width: 38%;
+  width: 44%;
 
 
   }
@@ -279,7 +279,8 @@ textarea:focus {
       gap: 1.2em;
   }
 }
-=======
+
+
 
  *{
     padding: 0;
