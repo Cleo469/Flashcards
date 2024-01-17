@@ -165,7 +165,7 @@ Implementation:
 
 ## The Surface Plane
 
-Dark blue (#031023), light blue (#153c75), white(#f1f1f1) and light-brown (#f7e7ce) were chosen as primary colours for application.
+ #363D55, #FFFFFF, #414A67 and were chosen as primary colours for application.
 The main font of the application is ."Poppins", sans-serif;
 
 
