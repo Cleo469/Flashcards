@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flashcard App :: Home</title>
     <!-- Font Awesome Icons -->
+    📚 💯
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -15,29 +16,48 @@
     />
     <!-- Stylesheet -->
 
-    <link rel="stylesheet" href="Css/style.css"/>
+    <link rel="stylesheet" href="./style.css"/>
 
    </head>
+
+   <style>
+    /* Style for the mind map bubble */
+    .mind-map-bubble {
+      background-color: #f0f0f0; /* Light gray background */
+      border: 2px solid #3498db; /* Border color */
+      border-radius: 15px; /* Rounded corners */
+      padding: 15px; /* Padding inside the bubble */
+      margin-top: 20px; /* Adjusted margin top */
+      margin-bottom: 20px; /* Adjusted margin bottom */
+    }
+
+      /* Style for the navigation bar */
+      .nav-bar {
+        margin-bottom: 20px; /* Add margin-bottom for spacing */
+      }
+
+  </style>
     <body>
       <nav class="logo">
-            <div class="nav-bar">
-                <h1>FLASH CARDS</h1>
-            </div>
-                <ul class="nav-links">
-                        <li class="active" onclick="goToPage('Home')">Home</li>
-                        <li id="account" onclick="goToPage('About us')">About us</li>
-                        <li id="account" onclick="goToPage('flashcard')">flashcard</li>
-                 </ul>
-          </nav>
+        <div class="nav-bar">
+          <h1>FLASH CARDS</h1>
+        </div>
+        <ul class="nav-links">
+          <li class="active" onclick="goToPage('Home')">Home</li>
+          <li id="account" onclick="goToPage('About us')">About us</li>
+          <li id="account" onclick="goToPage('flashcard')">flashcard</li>
+        </ul>
+      </nav>
       <!-- introduction -->
           <section>
+      
             <div>
                <h3>Introduction</h3>
                 <p>
-                    This is a Code First Girls Project builts using html,css and javascript
-                    by a team of three aspiring developer. 
-                    The project tittled Flashcard is aimed at student who are newly learning how to code,
-                    Its an alternative way to learn develop and store relevant coding contents hence 
+                    This is a Code First Girls Project built using HTML, CSS, and JavaScript
+                    by a team of three aspiring developers. 
+                    The project titled Flashcard is aimed at students who are newly learning how to code.
+                    It's an alternative way to learn, develop, and store relevant coding content, hence 
                     the reason why we have created this project. <strong>
                     Flashcards are small note cards used for testing and improving memory 
                     through practiced information retrieval. Flashcards are typically two-sided,
@@ -46,6 +66,8 @@
                    </strong>
                 </p>
               <p>
+                 <!-- Tips for effective practice sessions - Mind map bubble -->
+      <section class="mind-map-bubble">
                   <h3>TIPS FOR EFFECTIVE PRACTICE SESSIONS</h3> 
                   <ul>
                         <li>1.Treat it Like an Exam. Don't Just Read Your Flashcards.</li>
@@ -57,8 +79,11 @@
               </p>
              </div>
            </section>
+
+  
+           
      <!-- Flashcard -->   
-        <section>
+        <section style="margin-top: 20px; margin-bottom: 20px;">
             <div>
                <h3>Flashcards</h3>
                <p> A flashcard or flash card is a card bearing information on both sides,
@@ -71,17 +96,19 @@
               </p>
              </div>
            </section>
+           
         <!-- about us -->
-           <section>
+           <section style="margin-top: 20px; margin-bottom: 20px;">
             <div>
                <h3>About us</h3>
-               <p> This page tells you about our team, our shared vision for the this project, 
-                   history, values, and achievements, and introduce you to each team members
-                   who are part of this project. its alllows you to see out recent and future portfolios
-                   and give room for anyone to reach out to us in case of future collaboration.
+               <p> This page tells you about our team, our shared vision for this project, 
+                   history, values, and achievements, and introduces you to each team member
+                   who is part of this project. It allows you to see our recent and future portfolios
+                   and gives room for anyone to reach out to us in case of future collaboration.
                </p>
              </div>
-           <section>
+           </section>
+           
         <!-- footer -->
         <footer class="footercontainer">
               <div class="socialIcons">
@@ -91,13 +118,11 @@
               </div>
 
               <div class="footerBottom">
-                <p>Copyright &copy;2024 Designed by <span>Olu & Cleo</span></p>
+                <p>Copyright &copy;2024 Designed by <span>Olu & Cleo ❤️</span></p>
               </div>
         </footer>
          <!-- Script -->
-         <script src="script.js"></script>
+         <script src="./script.js"></script>
       
         </body>   
       </html>
-
-    
