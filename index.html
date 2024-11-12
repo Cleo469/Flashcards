@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard App :: Home</title>
+    <!-- Font Awesome Icons -->
+    📚 💯
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="./style.css"/>
+
+   </head>
+
+   <style>
+    /* Style for the mind map bubble */
+    .mind-map-bubble {
+      background-color: #f0f0f0; /* Light gray background */
+      border: 2px solid #3498db; /* Border color */
+      border-radius: 15px; /* Rounded corners */
+      padding: 15px; /* Padding inside the bubble */
+      margin-top: 20px; /* Adjusted margin top */
+      margin-bottom: 20px; /* Adjusted margin bottom */
+    }
+
+      /* Style for the navigation bar */
+      .nav-bar {
+        margin-bottom: 20px; /* Add margin-bottom for spacing */
+      }
+
+  </style>
+    <body>
+      <nav class="logo">
+        <div class="nav-bar">
+          <h1>FLASH CARDS</h1>
+        </div>
+        <ul class="nav-links">
+          <li class="active" onclick="goToPage('Home')">Home</li>
+          <li id="account" onclick="goToPage('AboutUs')">About Us</li>
+          <li id="account" onclick="goToPage('flashcard')">flashcard</li>
+        </ul>
+      </nav>
+      <!-- introduction -->
+          <section>
+      
+            <div>
+               <h3>Introduction</h3>
+                <p>
+                    This is a Code First Girls Project built using HTML, CSS, and JavaScript
+                    by a team of two aspiring developers. 
+                    The project titled Flashcard is aimed at students who are newly learning how to code.
+                    It's an alternative way to learn, develop, and store relevant coding content, hence 
+                    the reason why we have created this project.
+                </p>
+              <p>
+                 <!-- Tips for effective practice sessions - Mind map bubble -->
+      <section class="mind-map-bubble">
+                  <h3>TIPS FOR EFFECTIVE PRACTICE SESSIONS</h3> 
+                  <ul>
+                        <li>1.Treat it Like an Exam. Don't Just Read Your Flashcards.</li>
+                         <li>2.Say Your Answers Out Loud While Studying.</li>
+                         <li>3.Review the Flashcards You Got Wrong Immediately After Every Practice Session.</li>
+                         <li>4.Switch Between Different Subjects Often (Interleaving).</li>
+                         <li> 5.Mix Up the Order of Your Questions (Varied Practice).</li>
+                  </ul>
+              </p>
+             </div>
+           </section>
+
+  
+           
+     <!-- Flashcard -->   
+        <section style="margin-top: 20px; margin-bottom: 20px;">
+            <div>
+               <h3>Flashcards</h3>
+               <p> A flashcard or flash card is a card bearing information on both sides,
+                   which is intended to be used as an aid in memorization. 
+                   Each flashcard typically bears a question or definition on one side and
+                   an answer or target term on the other. <strong>Flashcards help students to engage in active recall or a process
+                   wherein students actively engage in learning by stimulating our memories
+                   and creating lasting connections to the material. When you create flashcards,
+                   you should incorporate images as well as words to help improve your active recall</strong>
+              </p>
+             </div>
+           </section>
+           
+       
+           
+        <!-- footer -->
+        <footer class="footercontainer">
+              <div class="socialIcons">
+                  <a href="https://www.facebook.com/" target="_blank" aria-label="facebook link"><i class="fab fa-facebook-square mr-3"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank" aria-label="instagram link"><i class="fab fa-instagram-square mr-3"></i></a>
+                  <a href="https://www.twitter.com/" target="_blank" aria-label="twitter link"><i class="fab fa-twitter mr-3"></i></a>
+              </div>
+
+              <div class="footerBottom">
+                <p>Copyright &copy;2024 Designed by <span> Cleo & Olu ❤️</span></p>
+              </div>
+        </footer>
+         <!-- Script -->
+         <script src="./script.js"></script>
+      
+        </body>   
+      </html>
