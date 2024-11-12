@@ -36,6 +36,24 @@
 
 
   }
+  
+  /* General bullet spacing for web */
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 600px) {
+    ul {
+        padding-left: 15px; /* Adjust for smaller screens */
+        line-height: 1.6; /* Reduce spacing slightly to fit better on mobile */
+    }
+    .nav-links li {
+        margin-bottom: 10px; /* Adds extra space in mobile nav links */
+    }
+    /* Any other specific mobile adjustments */
+}
 
   /* General styling for navigation links */ 
   .nav-links li { list-style-type: none;  /* Removes default bullet points */
